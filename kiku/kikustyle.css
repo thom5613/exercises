@@ -1,0 +1,266 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.title{
+    height: 130px;
+    width: 1180px;
+    background-color: rgba(150, 192, 192, 0.5);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+img{
+    padding-top: 5px;
+}
+
+body{
+    background-color: rgba(28, 66, 68, .7);
+    background-image: url("kiku web photos/photo41-7.jpg") ;
+    background-size: 1600px;
+    height: 1150px;
+    margin: auto;
+}
+
+.body{
+    height: 700px;
+    width: 1180px;
+    background-color: rgba(150, 192, 192, 0.5);
+    text-align: center;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    padding-bottom: 50px;
+;
+}
+
+.navbar {
+    height: 20px;
+    width: 1420px;
+    background-color: rgba(28, 66, 68, .7);
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+.top{
+    padding-top: 110px;
+}
+h3#nav-about, h3#nav-menu, h3#nav-happy_hour, h3#nav-location{
+    display: inline;
+    font-size: 20px;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    width: 200px;
+    color: #FFFFFF;
+    padding: 80px;
+    margin: 10px;
+}
+
+p{
+    justify-content: center;
+    font-family: "Oxygen";
+    font-weight: lighter;
+    font-size: 18px;
+    color: white;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 36px;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 60px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Syncopate', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 60px;
+}
+
+.head{
+    height: 72px;
+    width: 1180px;
+    background-color: rgba(39, 83, 87, 0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin: 0 auto;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+footer{
+    box-sizing: border-box;
+    height: 230px;
+    width: 1180px;
+    background-color: rgba(28, 66, 68, .7);
+    margin: 5px auto;
+text-align: center;
+    padding-left: 150px;
+}
+
+.foot1, .foot2, .foot3{
+    /*display: inline-block;*/
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+h5{
+    width: 300px;
+    height: 10px;
+    font-size: 18px;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-bottom: 0px;
+}
+.foot{
+    font-size: 12px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+#n-about:hover {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+
+#n-menu:hover {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#n-happy_hour:hover {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+br{
+    line-height: 3px;
+}
+
+#n-location:hover {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+
+#nav-about:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+#nav-about:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#nav-about:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#nav-about:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-menu:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+#nav-menu:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#nav-menu:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#nav-menu:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-happy_hour:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+#nav-happy_hour:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#nav-happy_hour:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#nav-happy_hour:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-location:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+#nav-location:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#nav-location:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#nav-location:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}

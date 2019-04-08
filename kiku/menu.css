@@ -1,0 +1,259 @@
+html{
+    scroll-behavior: smooth;
+}
+
+p#nav-appetizers, p#nav-rice-and-noodles, p#nav-tempura, p#nav-entrees, p#nav-sushi-sashimi, p#nav-hand-rolls, p#nav-chefs{
+    display: inline-block;
+    width: 110px;
+    height: 75px;
+    font-size: 12px;
+    font-family: 'Syncopate', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    padding-left: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#menuhead{
+    height: 72px;
+    width: 1180px;
+    background-color: rgba(39, 83, 87, 0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.menunav{
+    display: inline-block;
+}
+
+
+.menubody{
+    height: 700px;
+    width: 1180px;
+    background-color: rgba(150, 192, 192, 0.5);
+    text-align: center;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    padding-bottom: 30px;
+;
+}
+
+
+.list{
+    display: inline-block;
+    width: 900px;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-top: 10px;
+    margin: auto;
+
+}
+
+dl{
+    display: inline-block;
+    font-size: 16px;
+    font-family: Oxygen, Serif ;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 5px;
+}
+dd{
+    padding-top: 10px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 36px;
+    font-family: 'Syncopate', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 900px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.app{
+    padding-top: 120px;
+}
+
+#nav-appetizers:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+    #nav-appetizers:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+    #nav-appetizers:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+    #nav-appetizers:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-rice-and-noodles:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+    #nav-rice-and-noodles:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+    #nav-rice-and-noodles:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+    #nav-rice-and-noodles:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-tempura:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+    #nav-tempura:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+    #nav-tempura:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+    #nav-tempura:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-entrees:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+    #nav-entrees:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+    #nav-entrees:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+    #nav-entrees:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-sushi-sashimi:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+    #nav-sushi-sashimi:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+    #nav-sushi-sashimi:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+    #nav-sushi-sashimi:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-hand-rolls:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+    #nav-hand-rolls:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+    #nav-hand-rolls:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+    #nav-hand-rolls:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-chefs:link {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+    #nav-chefs:active {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+    #nav-chefs:hover {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+    #nav-chefs:visited {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    height: 1200px;
+}
